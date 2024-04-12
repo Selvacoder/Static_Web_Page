@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Comatible" content="IE=edge">
+  <meta name="Viewpoint" content="width=device-width,initial-scale=1.0">
+  <title>Studio</title>
+  <link rel="icon" type="image/jpg" href="A.jpg">
+  <link rel="stylesheet" href="home.css" media="all">
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  height: 50px;
+}
+
+#navbar {
+  list-style-type: none;
+  display: flex;
+}
+
+#navbar li {
+  margin-right: 20px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+#feature {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #fafafa;
+}
+
+.fe-box {
+  text-align: center;
+}
+
+.fe-box img {
+  height: 100px;
+}
+
+#product1 {
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+.pro-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pro {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 0px #aaa;
+}
+
+.pro img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.des {
+  padding: 10px;
+}
+
+.star {
+  color: orange;
+}
+
+.cart {
+  color: green;
+}
+
+#banner {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+#banner h2 span {
+  color: red;
+}
+
+.normal {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.banner-box {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+  margin: 20px;
+}
+
+#subscribe {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+#subscribe h2 {
+  margin-bottom: 20px;
+}
+
+#subscribe form {
+  margin-top: 20px;
+}
+
+#subscribe input[type="email"] {
+  padding: 10px;
+  width: 200px;
+}
+
+#subscribe button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+
+#foot {
+  display: flex;
+  justify-content: space-around;
+}
+
+#foot div {
+  flex: 1;
+}
+
+#foot h3 {
+  margin-bottom: 20px;
+}
+
+#foot ul {
+  list-style-type: none;
+}
+
+#foot li {
+  margin-bottom: 10px;
+}
+
+#copy {
+  text-align: center;
+  margin-top: 20px;
+}
+
+</style>
+</head>
+
+<body>
+  <section id="header">
+
+    <a href="#"><img src="Logo.jpg" class="logo" id="logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
+        
+
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cam.html"></a><span class="icon"><ion-icon name="camera"></ion-icon></span>
+      <i id="bar">
+        menu
+      </i>
+
+    </div>
+
+
+  </section>
+
+  <section id="hero">
+    <h4>Take</h4>
+    <h2>Photography</h2>
+    <p>to the next level</p>
+    <button>book now</button>
+  </section>
+
+  <section id="feature" class="section-p1">
+    <div class="fe-box">
+      <img src="free.jpg" alt="">
+      <h6>Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+      <img src="ord.jpg" alt="">
+      <h6>Order Online</h6>
+    </div>
+    <div class="fe-box">
+      <img src="free.jpg" alt="">
+      <h6>Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+      <img src="free.jpg" alt="">
+      <h6>Free Shipping</h6>
+    </div>
+  </section>
+
+  <section id="product1" class="section-p1">
+    <h2>Featured Product</h2>
+    <P>Tect which must be wrtiten</P>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="pho1.jpg" alt="">
+        <div class="des">
+          <span>photo</span>
+          <h5>what kind of photo it is</h5>
+
+          <div class="star">
+            <i><ion-icon name="star"></ion-icon></i>
+            <i><ion-icon name="star"></ion-icon></i>
+            <i><ion-icon name="star"></ion-icon></i>
+            <i><ion-icon name="star"></ion-icon></i>
+            <i><ion-icon name="star"></ion-icon></i>
+          </div>
+          <h4>₹ 599</h4>
+
+        </div>
+        <a href="#"><i><ion-icon name="cart-outline" class="cart"></ion-icon></i></a>
+      </div>
+      <!-- Add more product containers here -->
+    </div>
+  </section>
+
+  <section id="banner" class="section-m1 ">
+    <h4>Additional Services</h4>
+    <h2>up tp <span>25% Off </span>- For Album Making</h2>
+    <button class="normal">Explore More</button>
+  </section>
+
+  <section id="banner3">
+    <div class="banner-box ">
+      <h2>WEDDING SHOOTS</h2>
+      <H3>Offer 20% on PreBooking</H3>
+    </div>
+    <div class="banner-box banner-box2 ">
+      <h2>BIRTHDAY PARTIES</h2>
+      <H3>Offer 15% for babies</H3>
+    </div>
+    <div class="banner-box banner-box3">
+      <h2>SOLO SHOOTS</h2>
+      <H3>Offer 10% for Second Time</H3>
+    </div>
+  </section>
+
+  <section id="subscribe">
+    <h2>Subscribe</h2>
+    <h3>Get the latest news & offers!</h3>
+    <form action="">
+      <input type="email" placeholder="Enter your email">
+      <button>Subscribe</button>
+    </form>
+  </section>
+
+  <section id="footer">
+    <div id="foot">
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li>Wedding</li>
+          <li>Birthday</li>
+          <li>Party</li>
+          <li>Festival</li>
+        </ul>
+      </div>
+      <div>
+        <h3>About Us</h3>
+        <ul>
+          <li>Who we are</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Support</h3>
+        <ul>
+          <li>Help Center</li>
+          <li>FAQs</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+        </ul>
+      </div>
+    </div>
+    <div id="copy">
+      <p>© 2024 Studio. All rights reserved.</p>
+    </div>
+  </section>
+</body>
+
+</html>
